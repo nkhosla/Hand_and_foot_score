@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/round1Team1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/team_one"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/round1Team2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/R1got22"
+        android:layout_alignParentRight="true"
+        android:text="@string/team_two"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/R1got22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/round1Team1Text"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/got22"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/R1closedNatural"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R1got22"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/closed_natural"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/R1closedUnnatural"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R1closedNatural"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/closed_unnatural"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/R1PointsInHand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1closedUnnatural"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/pts_in_hand"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:context=".RoundOne" />
+
+    <TextView
+        android:id="@+id/R1PointsOnTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1PointsInHand"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/pts_on_table"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:context=".RoundOne" />
+
+    <EditText
+        android:id="@+id/R1T1Naturals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1closedNatural"
+        android:layout_alignBottom="@+id/R1closedNatural"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/R1closedNatural"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T2Naturals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1closedNatural"
+        android:layout_alignBottom="@+id/R1closedNatural"
+        android:layout_toRightOf="@+id/R1closedUnnatural"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T1got22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1got22"
+        android:layout_alignBottom="@+id/R1got22"
+        android:layout_toLeftOf="@+id/R1got22"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T2got22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1got22"
+        android:layout_alignBottom="@+id/R1got22"
+        android:layout_toRightOf="@+id/R1got22"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T1Unnaturals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1closedUnnatural"
+        android:layout_alignBottom="@+id/R1closedUnnatural"
+        android:layout_toLeftOf="@+id/R1closedUnnatural"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T2Unnaturals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1closedUnnatural"
+        android:layout_alignBottom="@+id/R1closedUnnatural"
+        android:layout_toRightOf="@+id/R1closedUnnatural"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T1PointsInHand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1PointsInHand"
+        android:layout_alignBottom="@+id/R1PointsInHand"
+        android:layout_toLeftOf="@+id/R1PointsInHand"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T2PointsInHand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1PointsInHand"
+        android:layout_alignBottom="@+id/R1PointsInHand"
+        android:layout_toRightOf="@+id/R1PointsInHand"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T1PointsOnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1PointsOnTable"
+        android:layout_alignBottom="@+id/R1PointsOnTable"
+        android:layout_toLeftOf="@+id/R1PointsOnTable"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/R1T2PointsOnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/R1PointsOnTable"
+        android:layout_alignBottom="@+id/R1PointsOnTable"
+        android:layout_toRightOf="@+id/R1PointsOnTable"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="playSecondRound"
+        android:text="@string/next_step" />
+
+</RelativeLayout>

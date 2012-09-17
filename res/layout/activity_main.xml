@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/teamOneInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_one_setup_instructions" />
+
+    <EditText
+        android:id="@+id/insert_player_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_one" />
+
+    <EditText
+        android:id="@+id/insert_player_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_two" />
+
+    <TextView
+        android:id="@+id/teamTwoInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_two_setup_instructions" />
+
+    <EditText
+        android:id="@+id/insert_player_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_three" />
+
+    <EditText
+        android:id="@+id/insert_player_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_four" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="playFirstRound"
+        android:text="@string/next_step" />
+
+</LinearLayout>

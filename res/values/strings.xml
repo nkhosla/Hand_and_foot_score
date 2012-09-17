@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">H+F Score Keeper</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="name_players_instructions">Please inster the names of all players</string>
+    <string name="player_one">Player 1</string>
+    <string name="player_two">Player 2</string>
+    <string name="player_three">Player 3</string>
+    <string name="player_four">Player 4</string>
+    <string name="next_step">Continue>>></string>
+    <string name="team_one_setup_instructions">Please insert the names of the two players for team one</string>
+    <string name="team_two_setup_instructions">Please insert the names of the two players for team two</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_round_one">RoundOne</string>
+    <string name="closed_natural">Number of closed natural piles</string>
+    <string name="closed_unnatural">Number of closed unnatural piles</string>
+    <string name="team_one">Team 1</string>
+    <string name="team_two">Team 2</string>
+    <string name="score">Score</string>
+    <string name="got22">No. Of players who drew 22 cards</string>
+    <string name="title_activity_round_two">RoundTwo</string>
+    <string name="title_activity_round_three">RoundThree</string>
+    <string name="title_activity_round_four">RoundFour</string>
+    <string name="title_activity_final_scores">FinalScores</string>
+    <string name="number">#</string>
+    <string name="pts_on_table">Total points played</string>
+    <string name="pts_in_hand">Total points held in hand after close</string>
+
+</resources>
