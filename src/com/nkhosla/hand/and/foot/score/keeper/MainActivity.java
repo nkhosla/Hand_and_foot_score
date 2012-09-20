@@ -53,8 +53,8 @@ public class MainActivity extends Activity {
     	//Put the team names into Extras for the intent and give a small toast notificiaton
     	//showing the teams
     	
-    	teamNames[0] = teamOneNames;
-    	teamNames[1]=teamTwoNames;
+    	MainActivity.teamNames[0] = teamOneNames;
+    	MainActivity.teamNames[1] = teamTwoNames;
     	
     	
     	String toastNotification="The teams are:\nTeam One: ".concat(teamOneNames).concat("\nTeam Two: ").concat(teamTwoNames);
