@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.nkhosla.hand.and.foot.score.keeper;
+package com.nkhosla.hand.and.foot.score.keeper2;
 
 public final class R {
     public static final class attr {

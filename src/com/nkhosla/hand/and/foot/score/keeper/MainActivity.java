@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.nkhosla.hand.and.foot.score.keeper2.R;
 
 public class MainActivity extends Activity {
 

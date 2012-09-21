@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import com.nkhosla.hand.and.foot.score.keeper2.R;
 
 public class RoundFour extends Activity {
 

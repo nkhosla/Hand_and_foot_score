@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nkhosla.hand.and.foot.score.keeper"
+    package="com.nkhosla.hand.and.foot.score.keeper2"
     android:versionCode="2"
     android:versionName="1.1a" >
 
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,35 +21,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RoundOne"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.RoundOne"
             android:label="@string/title_activity_round_one" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nkhosla.hand.and.foot.score.keeper.MainActivity" />
         </activity>
         <activity
-            android:name=".RoundTwo"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.RoundTwo"
             android:label="@string/title_activity_round_two" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nkhosla.hand.and.foot.score.keeper.MainActivity" />
         </activity>
         <activity
-            android:name=".RoundThree"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.RoundThree"
             android:label="@string/title_activity_round_three" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nkhosla.hand.and.foot.score.keeper.MainActivity" />
         </activity>
         <activity
-            android:name=".RoundFour"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.RoundFour"
             android:label="@string/title_activity_round_four" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.nkhosla.hand.and.foot.score.keeper.MainActivity" />
         </activity>
         <activity
-            android:name=".FinalScores"
+            android:name="com.nkhosla.hand.and.foot.score.keeper.FinalScores"
             android:label="@string/title_activity_final_scores" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
