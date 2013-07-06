@@ -1,3 +1,5 @@
+/*___Generated_by_IDEA___*/
+
 /** Automatically generated file. DO NOT MODIFY */
 package com.nkhosla.hand.and.foot.score.keeper2;
 

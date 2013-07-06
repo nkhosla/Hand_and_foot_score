@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">H+F Score Keeper</string>
+    <string name="app_name">Hand+Foot Score Keeper</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Hand+Foot Score Keeper</string>
     <string name="name_players_instructions">Please inster the names of all players</string>
     <string name="player_one">Player 1</string>
     <string name="player_two">Player 2</string>
@@ -26,5 +26,7 @@
     <string name="number">#</string>
     <string name="pts_on_table">Total points played</string>
     <string name="pts_in_hand">Total points held in hand after close</string>
+    <string name="sp_pile">Number of Special Piles</string>
+
 
 </resources>

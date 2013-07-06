@@ -56,6 +56,9 @@ public class RoundThree extends Activity {
 		EditText t1PointsInHand = (EditText) findViewById(R.id.R3T1PointsInHand);
 		EditText t2PointsInHand = (EditText) findViewById(R.id.R3T2PointsInHand);
 
+        EditText t1Spp = (EditText) findViewById(R.id.R3T1Spp);
+        EditText t2Spp = (EditText) findViewById(R.id.R3T2Spp);
+
 
 		//check to make sure the fields are not empty
 		if((isEmptyText(t1naturals) ||
@@ -67,7 +70,9 @@ public class RoundThree extends Activity {
 				isEmptyText(t1PointsOnTable) ||
 				isEmptyText(t2PointsOnTable) ||
 				isEmptyText(t1PointsInHand) ||
-				isEmptyText(t2PointsInHand))){
+				isEmptyText(t2PointsInHand) ||
+                isEmptyText(t1Spp) ||
+                isEmptyText(t2Spp))){
 
 			//give a pop-up reminding the user to fill in all fields
 
@@ -92,6 +97,7 @@ public class RoundThree extends Activity {
 			int unnatural[] ={0,0};
 			int pointsOnTable[] ={0,0};
 			int pointsInHand[] ={0,0};
+            int spp[]={0,0};
 
 			//get the values and calculate the score
 			natural[0] = 500*Integer.parseInt(t1naturals.getText().toString());
@@ -109,11 +115,13 @@ public class RoundThree extends Activity {
 			pointsInHand[0] = Integer.parseInt(t1PointsInHand.getText().toString());
 			pointsInHand[1] = Integer.parseInt(t2PointsInHand.getText().toString());
 
+            spp[0] = 2000*Integer.parseInt(t1Spp.getText().toString());
+            spp[1] = 2000*Integer.parseInt(t2Spp.getText().toString());
 
 
-			int teamOneScore = natural[0]+unnatural[0]+pointsOnTable[0]+got22[0]-pointsInHand[0];
-			int teamTwoScore = natural[1]+unnatural[1]+pointsOnTable[1]+got22[1]-pointsInHand[1];
 
+			int teamOneScore = natural[0]+unnatural[0]+pointsOnTable[0]+got22[0]-pointsInHand[0]+spp[0];
+			int teamTwoScore = natural[1]+unnatural[1]+pointsOnTable[1]+got22[1]-pointsInHand[1]+spp[1];
 
 
 			// insert the scores into the score arrays from MainActivity

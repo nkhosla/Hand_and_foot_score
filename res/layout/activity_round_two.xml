@@ -82,6 +82,18 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         tools:context=".RoundOne" />
 
+    <TextView
+            android:id="@+id/R2Spp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/R2PointsOnTable"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:text="@string/sp_pile"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            tools:context=".RoundOne" />
+
     <EditText
         android:id="@+id/R2T1Naturals"
         android:layout_width="match_parent"
@@ -192,6 +204,28 @@
         android:ems="10"
         android:hint="@string/number"
         android:inputType="number" />
+
+    <EditText
+            android:id="@+id/R2T1Spp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/R2Spp"
+            android:layout_alignBottom="@+id/R2Spp"
+            android:layout_toLeftOf="@+id/R2Spp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="number" />
+
+    <EditText
+            android:id="@+id/R2T2Spp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/R2Spp"
+            android:layout_alignBottom="@+id/R2Spp"
+            android:layout_toRightOf="@+id/R2Spp"
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="number" />
 
     <Button
         android:layout_width="match_parent"
